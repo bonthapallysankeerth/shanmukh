@@ -519,6 +519,10 @@
 }
 
 @media (max-width: 760px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .navbar {
     padding: 1rem 1rem;
   }
