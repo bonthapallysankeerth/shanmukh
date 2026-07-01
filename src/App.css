@@ -101,11 +101,13 @@
 }
 
 .page-hero {
+  max-width: 1200px;
+  margin: auto;
   display: grid;
-  grid-template-columns: 1.05fr 0.95fr;
+  grid-template-columns: 0.9fr 1.1fr;
   gap: 2.5rem;
   align-items: center;
-  padding-top: 2.5rem;
+  padding: 3rem 1.5rem;
 }
 
 .hero-copy h1,
@@ -182,6 +184,7 @@
 
 .hero-visual {
   display: grid;
+  
   gap: 1rem;
 }
 
@@ -191,12 +194,9 @@
   box-shadow: 0 22px 34px rgba(11, 93, 75, 0.18);
 }
 
-.hero-image.large {
-  min-height: 420px;
-}
-
+.hero-image.large,
 .hero-image.small {
-  min-height: 170px;
+  height: 220px;
 }
 
 .hero-image-row {
@@ -207,10 +207,18 @@
 
 .hero-image img,
 .page-image img,
-.masonry-item img,
-.feature-card img {
+.masonry-item img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+/* Service cards images */
+.feature-card img {
+  width: 100%;
+  height: 220px;
   object-fit: cover;
   display: block;
 }
