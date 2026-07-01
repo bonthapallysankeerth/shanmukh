@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import sodaImage from '../images/service-soda.jpg';
 export default function OGsoda() {
   const flavours = [

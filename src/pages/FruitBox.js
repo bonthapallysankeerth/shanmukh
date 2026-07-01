@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import fruitImage from '../images/service-fruit.png.jpg';
 export default function FruitBox() {
   return (

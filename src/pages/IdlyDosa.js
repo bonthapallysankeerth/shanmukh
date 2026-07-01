@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import idlyImage from '../images/service-idly.jpg';
 export default function IdlyDosa() {
   return (

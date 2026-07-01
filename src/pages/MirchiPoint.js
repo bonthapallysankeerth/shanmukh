@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import mirchiImage from '../images/service-mirchi.jpg';
 export default function MirchiPoint() {
   return (
